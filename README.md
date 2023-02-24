@@ -23,7 +23,7 @@ cd scan
 nvcc scan2.cu scan2_main.cu -o scan2
 ./scan2 M
 ```
-$$2^M$$ determines array-size
+$$2^M determines array-size $$
 
 
 ## FFT
