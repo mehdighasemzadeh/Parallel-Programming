@@ -12,7 +12,7 @@ cd multiply
 nvcc -O2 bmm_main.cu bmm.cu -o bmm
 ./bmm M
 ```
-< 2^M determines matrix-size >
+2^M determines matrix-size
 
 
 ## Parallel Scan Algorithm
