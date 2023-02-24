@@ -48,5 +48,5 @@ gcc -O2 pth_msort_test.c pth_msort.c -lpthread -lm
 ```
 2^M determines array-size
 
-All codes are executable in google colab, and an ipynb file is provided for that.
+## All codes are executable in google colab, and an [ipynb file](Parallel.ipynb) is provided for that.
 
