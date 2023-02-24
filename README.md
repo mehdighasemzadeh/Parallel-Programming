@@ -12,7 +12,7 @@ cd multiply
 nvcc -O2 bmm_main.cu bmm.cu -o bmm
 ./bmm M
 ```
-$$2^M$$ determines matrix-size
+2^M determines matrix-size
 
 
 ## Parallel Scan Algorithm
@@ -23,7 +23,7 @@ cd scan
 nvcc scan2.cu scan2_main.cu -o scan2
 ./scan2 M
 ```
-$$2^M determines array-size $$
+2^M determines array-size 
 
 
 ## FFT
@@ -34,7 +34,7 @@ cd FFT
 nvcc -O2 fft_main.cu fft.cu -o fft
 ./fft M
 ```
-$$2^M$$ determines array-size
+2^M determines array-size
 
 ## Merge-Sort
 four thread are uesed for this Parallelizing
@@ -46,7 +46,7 @@ cd merge-sort
 gcc -O2 pth_msort_test.c pth_msort.c -lpthread -lm
 ./a.out M
 ```
-$$2^M$$ determines array-size
+2^M determines array-size
 
 All codes are executable in google colab, and an ipynb file is provided for that.
 
